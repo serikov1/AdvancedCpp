@@ -1,0 +1,25 @@
+# ninja log v5
+1	271	1677444267980656431	CMakeFiles/libStorage.dir/home/vasilli/CLionProjects/AdvancedC++/firstLesson/alignedStorage/library.cpp.o	65fc34fd860e54fc
+280	315	1677443457882137050	liblibStorage1.a	6958b28cfdd2781c
+271	306	1677444268016656568	liblibStorage.a	d7f532861605fdd5
+488	613	1676841578852598872	testStorage	161bb70de14123e6
+0	352	1677445103187298794	CMakeFiles/testStorage.dir/main.cpp.o	6bec59c0ef5ae669
+1	280	1677443457842137325	CMakeFiles/libStorage1.dir/home/vasilli/CLionProjects/AdvancedC++/firstLesson/alignedStorage/library.cpp.o	360f3227643eac43
+0	315	1677445153527445269	CMakeFiles/testStorage.dir/main.cpp.o	6bec59c0ef5ae669
+1	275	1677445373180025889	CMakeFiles/libStorage.dir/home/vasilli/CLionProjects/AdvancedC++/firstLesson/alignedStorage/library.cpp.o	65fc34fd860e54fc
+275	312	1677445373220025987	liblibStorage.a	d7f532861605fdd5
+1	333	1677445373240026037	CMakeFiles/testStorage.dir/main.cpp.o	6bec59c0ef5ae669
+1	287	1677445419408138219	CMakeFiles/libStorage.dir/home/vasilli/CLionProjects/AdvancedC++/firstLesson/alignedStorage/library.cpp.o	65fc34fd860e54fc
+287	324	1677445419448138315	liblibStorage.a	d7f532861605fdd5
+1	350	1677445419472138373	CMakeFiles/testStorage.dir/main.cpp.o	6bec59c0ef5ae669
+350	433	1677445419556138574	testStorage	161bb70de14123e6
+1	303	1677445520848375241	CMakeFiles/libStorage.dir/home/vasilli/CLionProjects/AdvancedC++/firstLesson/alignedStorage/library.cpp.o	65fc34fd860e54fc
+303	339	1677445520900375358	liblibStorage.a	d7f532861605fdd5
+1	344	1677445520900375358	CMakeFiles/testStorage.dir/main.cpp.o	6bec59c0ef5ae669
+1	274	1677445757160888071	CMakeFiles/libStorage.dir/home/vasilli/CLionProjects/AdvancedC++/firstLesson/alignedStorage/library.cpp.o	65fc34fd860e54fc
+274	309	1677445757196888145	liblibStorage.a	d7f532861605fdd5
+1	326	1677445757212888179	CMakeFiles/testStorage.dir/main.cpp.o	6bec59c0ef5ae669
+1	289	1677446176009712194	CMakeFiles/libStorage.dir/home/vasilli/CLionProjects/AdvancedC++/firstLesson/alignedStorage/library.cpp.o	65fc34fd860e54fc
+289	326	1677446176049712269	liblibStorage.a	d7f532861605fdd5
+0	344	1677446176061712292	CMakeFiles/testStorage.dir/main.cpp.o	6bec59c0ef5ae669
+344	429	1677446176149712458	testStorage	161bb70de14123e6

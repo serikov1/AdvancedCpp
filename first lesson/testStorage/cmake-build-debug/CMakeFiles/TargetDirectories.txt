@@ -1,4 +1,0 @@
-/home/vasilli/CLionProjects/AdvancedC++/testStorage/cmake-build-debug/CMakeFiles/testStorage.dir
-/home/vasilli/CLionProjects/AdvancedC++/testStorage/cmake-build-debug/CMakeFiles/libStorage.dir
-/home/vasilli/CLionProjects/AdvancedC++/testStorage/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/vasilli/CLionProjects/AdvancedC++/testStorage/cmake-build-debug/CMakeFiles/rebuild_cache.dir
