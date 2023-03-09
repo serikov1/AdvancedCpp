@@ -99,27 +99,12 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/Clang-CXX.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/Clang.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+			"path" : "/snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "/snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-Clang-CXX.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -135,29 +120,13 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "/snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/x86_64-linux-gnu/cmake/fmt/fmt-config-version.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/x86_64-linux-gnu/cmake/fmt/fmt-config.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/x86_64-linux-gnu/cmake/fmt/fmt-targets.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/usr/lib/x86_64-linux-gnu/cmake/fmt/fmt-targets-none.cmake"
 		}
 	],
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/vasilli/CLionProjects/AdvancedC++/firstLesson/testStorage/cmake-build-debug",
-		"source" : "/home/vasilli/CLionProjects/AdvancedC++/firstLesson/testStorage"
+		"build" : "/home/vasilli/CLionProjects/AdvancedC++/firstLesson/gtestTraining/cmake-build-debug",
+		"source" : "/home/vasilli/CLionProjects/AdvancedC++/firstLesson/gtestTraining"
 	},
 	"version" : 
 	{

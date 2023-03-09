@@ -1,0 +1,5 @@
+if(EXISTS "/home/vasilli/CLionProjects/AdvancedC++/firstLesson/testStorage/cmake-build-debug/main[1]_tests.cmake")
+  include("/home/vasilli/CLionProjects/AdvancedC++/firstLesson/testStorage/cmake-build-debug/main[1]_tests.cmake")
+else()
+  add_test(main_NOT_BUILT main_NOT_BUILT)
+endif()

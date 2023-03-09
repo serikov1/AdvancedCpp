@@ -1,0 +1,3 @@
+/home/vasilli/CLionProjects/AdvancedC++/firstLesson/gtestTraining/cmake-build-debug/CMakeFiles/gtestTraining.dir
+/home/vasilli/CLionProjects/AdvancedC++/firstLesson/gtestTraining/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/vasilli/CLionProjects/AdvancedC++/firstLesson/gtestTraining/cmake-build-debug/CMakeFiles/rebuild_cache.dir

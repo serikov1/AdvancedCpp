@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/vasilli/CLionProjects/AdvancedC++/firstLesson/testStorage/cmake-build-debug"
+			"value" : "/home/vasilli/CLionProjects/AdvancedC++/firstLesson/gtestTraining/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -167,11 +167,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "LLVM archiver"
+					"value" : "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/llvm-ar-14"
+			"value" : "/usr/bin/gcc-ar-11"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_RANLIB",
@@ -183,11 +183,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Generate index for LLVM archive"
+					"value" : "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/llvm-ranlib-14"
+			"value" : "/usr/bin/gcc-ranlib-11"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -543,7 +543,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/vasilli/CLionProjects/AdvancedC++/firstLesson/testStorage/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/home/vasilli/CLionProjects/AdvancedC++/firstLesson/gtestTraining/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -603,7 +603,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/vasilli/CLionProjects/AdvancedC++/firstLesson/testStorage"
+			"value" : "/home/vasilli/CLionProjects/AdvancedC++/firstLesson/gtestTraining"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -843,7 +843,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "testStorage"
+			"value" : "gtestTraining"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1138,19 +1138,7 @@
 			"value" : "TRUE"
 		},
 		{
-			"name" : "fmt_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for fmt."
-				}
-			],
-			"type" : "PATH",
-			"value" : "/usr/lib/x86_64-linux-gnu/cmake/fmt"
-		},
-		{
-			"name" : "testStorage_BINARY_DIR",
+			"name" : "gtestTraining_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1159,10 +1147,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/vasilli/CLionProjects/AdvancedC++/firstLesson/testStorage/cmake-build-debug"
+			"value" : "/home/vasilli/CLionProjects/AdvancedC++/firstLesson/gtestTraining/cmake-build-debug"
 		},
 		{
-			"name" : "testStorage_IS_TOP_LEVEL",
+			"name" : "gtestTraining_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1174,7 +1162,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "testStorage_SOURCE_DIR",
+			"name" : "gtestTraining_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1183,7 +1171,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/vasilli/CLionProjects/AdvancedC++/firstLesson/testStorage"
+			"value" : "/home/vasilli/CLionProjects/AdvancedC++/firstLesson/gtestTraining"
 		}
 	],
 	"kind" : "cache",
