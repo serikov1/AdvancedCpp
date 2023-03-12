@@ -13,7 +13,7 @@ Expected equality of these values:
   dummy + sizeof(dummy)
     Which is: 0x7ffd8c79b9e1
 ```
-- I tryed check it with with `class` which we considered at lesson and with `class` which was proposed me by ChatGPT(!) :rofl:, this problem was both there and there. Maybe I wrote tests incorrectly. UPD: this problem only with tests for `std::string`  and `std::vector<int>`
+- I tryed check it with with `class` which we considered at lesson and with `class` which was proposed me by ChatGPT(!) :rofl:, this problem was both there and there. Maybe I wrote tests incorrectly. **UPD**: this problem only with tests for `std::string`  and `std::vector<int>`
 
 - smt about `sizeof(ProbeObject)` and why `sizeof(ProbeObject)` is not equal to `sizeof(uint8_t) + sizeof(uint64_t) + sizeof(uint32_t) == 13 bytes`.
 The compiler aligns the data in memory itself, so the size of the object will depend on the data types, and even their order of declaration in the structure. For example,I tryed to put `uint8_t` as the first element and size of `ProbeObject` was 16 byte, but when I put `uint32_t` as the first element size of `ProbeObject` was 24 (!) byte :thinking:
