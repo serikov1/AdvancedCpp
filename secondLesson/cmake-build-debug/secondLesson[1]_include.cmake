@@ -1,0 +1,5 @@
+if(EXISTS "/home/vasilli/CLionProjects/AdvancedC++/secondLesson/cmake-build-debug/secondLesson[1]_tests.cmake")
+  include("/home/vasilli/CLionProjects/AdvancedC++/secondLesson/cmake-build-debug/secondLesson[1]_tests.cmake")
+else()
+  add_test(secondLesson_NOT_BUILT secondLesson_NOT_BUILT)
+endif()

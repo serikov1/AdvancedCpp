@@ -204,7 +204,7 @@ TEST(AlignedStorageTest, EasyString) {
     fmt::print("Storage address: {}\nObject address: {}\nStorage size: {}\n",
                static_cast<void *>(&value), static_cast<void *>(&(*value)),
                sizeof(value));
-    ASSERT_EQ(*value, std::string("s"));;
+    ASSERT_EQ(*value, std::string("s"));
     *value = static_cast<std::string>("sss");
 
 
@@ -325,6 +325,9 @@ TEST(AlignedStorageTest, Medium) {
         uint32_t value_1;
         uint64_t value_2;
         uint8_t value_3;
+
+
+
     };
     fmt::print("Size of ProbeObject is: {}\n", sizeof(ProbeObject(43, 14, 28)));
     // HW: Why sizeof(ProbeObject) is not equal to sizeof(uint8_t) + sizeof(uint64_t) + sizeof(uint32_t);

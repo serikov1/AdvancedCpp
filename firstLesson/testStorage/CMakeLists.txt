@@ -18,7 +18,7 @@ add_executable(main main.cpp)
 add_library(libStorage STATIC ../alignedStorage/library.cpp ../alignedStorage/library.h)
 target_link_libraries(main PRIVATE gtest_main fmt::fmt libStorage)
 target_include_directories(main PRIVATE ${CMAKE_SOURCE_DIR})
-
+add_compile_options(-Wall -Werror)
 # Find all tests in test target. Now we can use internal cmake tools to run tests. Also, clion can handle target as a tests.
 gtest_discover_tests(main)
 
