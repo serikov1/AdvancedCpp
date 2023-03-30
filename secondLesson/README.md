@@ -1,7 +1,7 @@
 ### This is the repo with "Implementation of a memory device"
 
 I added some [methods](https://github.com/serikov1/AdvancedCpp/blob/main/secondLesson/src/buffer.h) in `class Iterator` to
-make Random Access Iterator  
+complete Random Access Iterator  
 It was:  
 `friend difference_type operator-(const Iterator& lhs, const Iterator& rhs);` - return offset(`size_t`) between lhs and rhs   
 `reference operator[](difference_type n) const;` - equivalent to *(it + n)  
