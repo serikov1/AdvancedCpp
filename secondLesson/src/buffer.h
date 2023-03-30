@@ -182,6 +182,7 @@ public:
         return base_->operator[](index_);
     }
 
+    // homework
     auto &operator++() {
         ++index_;
         return *this;
@@ -223,7 +224,7 @@ public:
     }
 
     reference operator[](difference_type n) const {
-        return base_->impl_[index_ + n];
+        return base_->operator[](index_ + n);
     }
 
     bool operator==(const Iterator& other) const {
@@ -245,7 +246,7 @@ public:
     bool operator>=(const Iterator& other) const {
         return index_ >= other.index_;
     }
-
+    // homework
 protected:
     Iterator(buffer<T> *base, uint64_t index) : base_{base}, index_{index} {
     }

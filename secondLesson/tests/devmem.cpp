@@ -59,6 +59,32 @@ TEST(CommontDevice, Access) {
   }
 }
 
-TEST(Iterator, all_methods) {
+// homework
+TEST(Iterator, check_methods) {
+    auto device = cooldev::memory::make_device(
+            cooldev::memory::device_type::sequential, 128);
 
+    buffer<int> buf(device.space(), 128);
+
+    buf[0] = 10;
+    auto it = buf.begin();
+    ASSERT_EQ(*it, 10);
+
+    buf[127] = 20;
+    ASSERT_EQ(*(buf.end() - 1), buf[127]);
+
+    buf[1] = 5;
+    ASSERT_EQ(*(++buf.begin()), buf[1]);
+
+    it++;
+    ASSERT_EQ(*it, buf[1]);
+
+    it += 5;
+    ASSERT_EQ(*it, buf[6]);
+
+    buf[11] = 42;
+    ASSERT_EQ(it[5], buf[11]);
+
+    auto newIt = buf.end() - 5;
+    ASSERT_TRUE(newIt > it);
 }
