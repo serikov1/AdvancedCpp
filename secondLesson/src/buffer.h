@@ -199,6 +199,10 @@ public:
         return *this;
     }
 
+    auto operator+(difference_type n) {
+        return *(this) += n;
+    }
+
     auto &operator--() {
         --index_;
         return *this;
@@ -215,8 +219,8 @@ public:
         return *this;
     }
 
-    friend Iterator operator-(Iterator it, difference_type n) {
-        return it -= n;
+    auto operator-(difference_type n) {
+        return *(this) -= n;
     }
 
     friend difference_type operator-(const Iterator& lhs, const Iterator& rhs) {
@@ -246,7 +250,7 @@ public:
     bool operator>=(const Iterator& other) const {
         return index_ >= other.index_;
     }
-    // homework
+
 protected:
     Iterator(buffer<T> *base, uint64_t index) : base_{base}, index_{index} {
     }
