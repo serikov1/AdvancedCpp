@@ -1,13 +1,13 @@
 # ninja log v5
-2	1023	1678618547423148524	CMakeFiles/libStorage.dir/home/vasilli/CLionProjects/AdvancedC++/firstLesson/alignedStorage/library.cpp.o	cbdf971e41f85f49
+3	637	1678803177560196566	CMakeFiles/libStorage.dir/home/vasilli/CLionProjects/AdvancedC++/firstLesson/alignedStorage/library.cpp.o	fb05c2640d3c0136
 280	315	1677443457882137050	liblibStorage1.a	6958b28cfdd2781c
-1840	2135	1678620379446917640	/home/vasilli/CLionProjects/AdvancedC++/firstLesson/testStorage/cmake-build-debug/main[1]_tests.cmake	6e47dbb0037ebacf
-3254	3331	1678618549735156177	lib/libgtest_maind.a	acc2a909d3ed6fba
-0	249	1678639402283891546	build.ninja	f48dfc3555838f57
-1023	1071	1678618547475148697	liblibStorage.a	a1bc4f75ad715238
-1840	2135	1678620379446917640	main[1]_tests.cmake	6e47dbb0037ebacf
-1	1839	1678620379130916536	CMakeFiles/main.dir/main.cpp.o	98efbadc6de9a7b2
-2	3140	1678618549527155486	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	e40e9d7e6885de81
-1840	2135	1678620379446917640	main	6e47dbb0037ebacf
-3140	3254	1678618549655155911	lib/libgtestd.a	474f64a93767da77
-2	1416	1678618547815149818	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	3701c85470c40907
+3223	3444	1678825682229929372	/home/vasilli/CLionProjects/AdvancedC++/firstLesson/testStorage/cmake-build-debug/main[1]_tests.cmake	6e47dbb0037ebacf
+3145	3223	1678825682005920658	lib/libgtest_maind.a	acc2a909d3ed6fba
+0	249	1678852483781635295	build.ninja	f48dfc3555838f57
+638	702	1678803177624196136	liblibStorage.a	a1bc4f75ad715238
+3223	3444	1678825682229929372	main[1]_tests.cmake	6e47dbb0037ebacf
+1	2024	1678825356454685073	CMakeFiles/main.dir/main.cpp.o	642e6712cef35801
+1	3018	1678825681797912573	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	82c6b2b603711ab5
+3223	3444	1678825682229929372	main	6e47dbb0037ebacf
+3018	3145	1678825681925917548	lib/libgtestd.a	474f64a93767da77
+2	687	1678825355122705875	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	b99efd993607413

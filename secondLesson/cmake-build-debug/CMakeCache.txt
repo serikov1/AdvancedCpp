@@ -33,11 +33,13 @@ CMAKE_COLOR_DIAGNOSTICS:BOOL=ON
 //CXX compiler
 CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/c++
 
-//LLVM archiver
-CMAKE_CXX_COMPILER_AR:FILEPATH=/usr/bin/llvm-ar-14
+//A wrapper around 'ar' adding the appropriate '--plugin' option
+// for the GCC compiler
+CMAKE_CXX_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar-11
 
-//Generate index for LLVM archive
-CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/usr/bin/llvm-ranlib-14
+//A wrapper around 'ranlib' adding the appropriate '--plugin' option
+// for the GCC compiler
+CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib-11
 
 //Flags used by the CXX compiler during all build types.
 CMAKE_CXX_FLAGS:STRING=
@@ -197,7 +199,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=secondLesson
+CMAKE_PROJECT_NAME:STATIC=cmake_demo
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=1.10.0
@@ -307,13 +309,13 @@ INSTALL_GTEST:BOOL=ON
 PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python3.10
 
 //Value Computed by CMake
-all_BINARY_DIR:STATIC=/home/vasilli/CLionProjects/AdvancedC++/secondLesson/cmake-build-debug
+cmake_demo_BINARY_DIR:STATIC=/home/vasilli/CLionProjects/AdvancedC++/secondLesson/cmake-build-debug
 
 //Value Computed by CMake
-all_IS_TOP_LEVEL:STATIC=ON
+cmake_demo_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-all_SOURCE_DIR:STATIC=/home/vasilli/CLionProjects/AdvancedC++/secondLesson
+cmake_demo_SOURCE_DIR:STATIC=/home/vasilli/CLionProjects/AdvancedC++/secondLesson
 
 //The directory containing a CMake configuration file for fmt.
 fmt_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/fmt
@@ -372,15 +374,6 @@ gtest_hide_internal_symbols:BOOL=OFF
 
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;gtest;
-
-//Value Computed by CMake
-secondLesson_BINARY_DIR:STATIC=/home/vasilli/CLionProjects/AdvancedC++/secondLesson/cmake-build-debug
-
-//Value Computed by CMake
-secondLesson_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-secondLesson_SOURCE_DIR:STATIC=/home/vasilli/CLionProjects/AdvancedC++/secondLesson
 
 
 ########################
@@ -517,7 +510,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
